@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #222;
+}
+
+nav {
+  background: #173b65;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.stats div {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 180px;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.doctor-card,
+.doctor-details {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+.doctor-card h3 {
+  margin-bottom: 15px;
+}
+
+.doctor-card p,
+.doctor-details p {
+  margin: 12px 0;
+}
+
+button {
+  background: #173b65;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #2865a0;
+}
+
+select {
+  padding: 10px;
+  margin: 20px;
+}
+
+.doctor-details {
+  margin: 40px auto;
+  width: 400px;
+}
